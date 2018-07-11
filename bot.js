@@ -15,6 +15,7 @@ client.on("message", (message) => {
   } else
      if (message.content.startsWith("todoroki")) {
     message.channel.send("Hello, I heard my name.");
+     }
 });
 const prefix = ".";
 client.on("message", (message) => {
@@ -25,6 +26,7 @@ client.on("message", (message) => {
     } else
  if (message.content.startsWith(prefix + "hi todoroki")) {
     message.channel.send("Hello.");
+   } else
    if (message.content.startsWith(prefix + "help")) {
     message.channel.send("Okay, my commands so far are: (.)ping, (.)hi todoroki, todoroki, and Todoroki. More will come soon.");
  
