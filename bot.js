@@ -15,9 +15,10 @@ client.on("message", (message) => {
 
  if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Ping? What's a ping?");
-    }else
-  if (message.content.startsWith(prefix + "hi todoroki)) {
-     message.channel.send("Hello."));
+    } else
+ if (message.content.startsWith(prefix + "hi todoroki")) {
+    message.channel.send("Hello.");
+ 
        }
 
 });
