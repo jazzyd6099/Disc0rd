@@ -22,16 +22,14 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix)) return;
 
  if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("Ping? What's a ping?");
-    } else
+    message.channel.send("What's a ping?");
+	   } else
  if (message.content.startsWith(prefix + "hi todoroki")) {
     message.channel.send("Hello.");
-   } else
+	   } else
    if (message.content.startsWith(prefix + "help")) {
     message.channel.send("Okay, my commands so far are: (.)ping, (.)hi todoroki, todoroki, and Todoroki. More will come soon.");
- 
        }
-
 });
 
 client.login(process.env.BOT_TOKEN);
