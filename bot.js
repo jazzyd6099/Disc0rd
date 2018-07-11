@@ -14,7 +14,7 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix)) return;
 
  if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("What's a ping?");
+    message.channel.send("Ping? What's a ping?");
        }
 
 });
