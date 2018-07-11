@@ -28,7 +28,7 @@ client.on("message", (message) => {
     message.channel.send("Hello.");
 	   } else
    if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Okay, my commands so far are: (.)ping, (.)hi todoroki, todoroki, and Todoroki. More will come soon.");
+    message.channel.send("Okay, my commands so far are: (.)ping, (.)help, (.)hi todoroki, todoroki, and Todoroki. More will come soon.");
        }
 });
 
