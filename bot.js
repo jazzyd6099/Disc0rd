@@ -15,6 +15,9 @@ client.on("message", (message) => {
   } else
      if (message.content.startsWith("todoroki")) {
     message.channel.send("Hello, I heard my name.");
+     } else
+	if (message.content.startsWith("prefix")) {
+	  message.channel.send("Prefix for me is .");	 
      }
 });
 const prefix = ".";
