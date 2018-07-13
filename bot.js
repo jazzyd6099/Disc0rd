@@ -17,7 +17,7 @@ client.on("message", (message) => {
     message.channel.send("Hello, I heard my name.");
      } else
 	if (message.content.startsWith("prefix?")) {
-	  message.channel.send("Prefix for me is .");	 
+	  message.channel.send("Prefix for me is '.'");	 
 	} else
 		if (message.content.startsWith("I love my bot family")) {
 			message.channel.send("Okay");
