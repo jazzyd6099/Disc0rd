@@ -18,6 +18,9 @@ client.on("message", (message) => {
      } else
 	if (message.content.startsWith("prefix?")) {
 	  message.channel.send("Prefix for me is .");	 
+	} else
+		if (message.content.startsWith("I love my bot family")) {
+			message.channel.send("Okay");
      }
 });
 const prefix = ".";
