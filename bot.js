@@ -21,6 +21,9 @@ client.on("message", (message) => {
 	} else
 		if (message.content.startsWith("I love my bot family")) {
 			message.channel.send("Okay");
+			} else
+		if (message.content.startsWith("i hate myself")) {
+			message.reply("Don't worry, I hate myself too.");
      }
 });
 const prefix = ".";
