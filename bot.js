@@ -22,7 +22,7 @@ client.on("message", (message) => {
 		if (message.content.startsWith("I love my bot family")) {
 			message.channel.send("Okay");
 			} else
-		if (message.content.startsWith("i hate myself")) {
+	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself." || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 			message.reply("Don't worry, I hate myself too.");
      }
 });
